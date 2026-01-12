@@ -1,11 +1,11 @@
 
-&inputs {
-    #address-cells = <1>;
-    #size-cells = <0>;
-    cirque_split_rh: cirque_split_rh@0 {
-        compatible = "zmk,input-split";
-        reg = <0>;
-        device = <&glidepoint>;
+/ {
+    inputs {
+        cirque_split_rh: cirque_split_rh@0 {
+            compatible = "zmk,input-split";
+            reg = <0>;
+            device = <&glidepoint>;
+        };
     };
 };
 
