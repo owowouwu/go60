@@ -4,4 +4,21 @@
 # control, add individual board + shield combinations to
 # the `include` property, e.g:
 #
-board: [ "go60_lh", "go60_rh" ]
+include:
+  - board: seeeduino_xiao_ble
+    shield: go60_dongle dongle_screen
+    #cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000 #optional if logging is enabled
+    #snippet: zmk-usb-logging #only enable for debugging
+    artifact-name: go60_dongle
+
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
+    artifact-name: settings_reset
+
+  - board: go60_lh
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    artifact-name: go60_left
+
+  - board: go60_rh
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    artifact-name: go60_right
