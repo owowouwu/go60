@@ -32,4 +32,18 @@
         display-name = "Default Layout";
         transform = <&matrix_transform0>;
     };
+
+    cirque_lh_listener: cirque_lh_listener {
+        compatible = "zmk,input-listener";
+        status = "okay";
+        device = <&cirque_split_lh>;
+    };
+
+    cirque_rh_listener: cirque_rh_listener {
+        compatible = "zmk,input-listener";
+        status = "okay";
+        device = <&cirque_split_rh>;
+    };
+
+
 };
