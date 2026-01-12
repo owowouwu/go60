@@ -1,5 +1,3 @@
-#include "go60_lh.dts"
-
 &inputs {
     #address-cells = <1>;
     #size-cells = <0>;
