@@ -1,24 +1,23 @@
+#include "go60_rh.dts"
 
-/ {
-  &inputs {
-        #address-cells = <1>;
-        #size-cells = <0>;
-        cirque_split_rh: cirque_split_rh@0 {
-            compatible = "zmk,input-split";
-            reg = <0>;
-            device = <&glidepoint>;
-        };
+&inputs {
+    #address-cells = <1>;
+    #size-cells = <0>;
+    cirque_split_rh: cirque_split_rh@0 {
+        compatible = "zmk,input-split";
+        reg = <0>;
+        device = <&glidepoint>;
     };
+};
 
-    // Disabled input listeners for the Cirques, to permit references in the keymap
-    &cirque_lh_listener {
-        compatible = "zmk,input-listener";
-        status = "disabled";
-    };
+// Disabled input listeners for the Cirques, to permit references in the keymap
+&cirque_lh_listener {
+    compatible = "zmk,input-listener";
+    status = "disabled";
+};
 
-    &cirque_rh_listener {
-        compatible = "zmk,input-listener";
-        status = "disabled";
-    };
+&cirque_rh_listener {
+    compatible = "zmk,input-listener";
+    status = "disabled";
+};
 
-  };
