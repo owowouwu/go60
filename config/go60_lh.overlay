@@ -10,7 +10,7 @@
 
     chosen {
       /delete-property/ zmk,underglow_indicators;
-    }
+    };
 };
 
 /delete-node/ &underglow_indicators;
