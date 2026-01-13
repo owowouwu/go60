@@ -9,7 +9,7 @@
     };
 
     chosen {
-      /delete-property/ zmk,underglow_indicators;
+      /delete-property/ zmk,underglow-indicators;
     };
 };
 
