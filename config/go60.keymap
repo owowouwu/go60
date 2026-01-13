@@ -55,7 +55,7 @@
 &kp GRAVE                  &kp N1  &kp N2     &kp N3     &kp N4    &kp N5                                                                                   &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp DELETE
 &kp TAB                    &kp Q   &kp W      &kp E      &kp R     &kp T                                                                                    &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
 &mt LCTRL ESCAPE           &kp A   &kp S      &kp D      &kp F     &kp G                                                                                    &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&oneshot_caps_or_capsword  &kp Z   &kp X      &kp C      &kp V     &kp B                                                                                    &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &none
+&oneshot_caps_or_capsword  &kp Z   &kp X      &kp C      &kp V     &kp B                                                                                    &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &tog 2
                                    &mkp LCLK  &mkp RCLK  &kp LGUI                                                                                                   &kp LALT  &kp LBKT   &kp RBKT
                                                                            &kp LEFT_ALT  &sl 1  &mt LEFT_SHIFT ENTER  &kp SPACE  &lt 2 BACKSPACE  &kp LGUI
             >;
@@ -81,7 +81,7 @@
 &trans  &trans            &trans            &trans            &trans            &trans                                                  &trans         &trans         &trans    &trans        &trans        &trans
 &trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &trans                                                  &kp PAGE_DOWN  &kp LC(MINUS)  &kp UP    &kp LS(PLUS)  &kp N0        &kp BSPC
 &trans  &kp LALT          &kp LCTRL         &kp LSHFT         &kp LGUI          &trans                                                  &kp PAGE_DOWN  &kp LEFT       &kp DOWN  &kp RIGHT     &kp LS(DLLR)  &kp LS(A)
-&trans  &kp LC(Z)         &kp LC(X)         &kp LC(C)         &kp LC(V)         &trans                                                  &trans         &trans         &trans    &trans        &trans        &trans
+&trans  &kp LC(Z)         &kp LC(X)         &kp LC(C)         &kp LC(V)         &trans                                                  &trans         &trans         &trans    &trans        &trans        &tog 2
                           &trans            &trans            &trans                                                                                   &trans         &trans    &trans
                                                                                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -107,7 +107,7 @@
 &kp GRAVE                  &kp N1  &kp N2     &kp N3     &kp N4     &kp N5                                                                                    &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp DELETE
 &kp TAB                    &kp Q   &kp W      &kp E      &kp R      &kp T                                                                                     &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
 &mt LGUI ESCAPE            &kp A   &kp S      &kp D      &kp F      &kp G                                                                                     &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&oneshot_caps_or_capsword  &kp Z   &kp X      &kp C      &kp V      &kp B                                                                                     &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &none
+&oneshot_caps_or_capsword  &kp Z   &kp X      &kp C      &kp V      &kp B                                                                                     &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &tog 6
                                    &mkp LCLK  &mkp RCLK  &kp LCTRL                                                                                                    &kp LALT  &kp LBKT   &kp RBKT
                                                                             &kp LEFT_ALT  &sl 1  &mt LEFT_SHIFT ENTER  &kp SPACE  &lt 2 BACKSPACE  &kp LCTRL
             >;
@@ -120,7 +120,7 @@
 &kp GRAVE      &kp F1         &kp F2         &kp F3         &kp F4        &kp F5                                                        &kp F6        &kp F7        &kp F8        &kp F9        &kp F10     &kp F11
 &kp LS(TILDE)  &kp N1         &kp N2         &kp N3         &kp N4        &kp N5                                                        &kp N6        &kp N7        &kp N8        &kp N9        &kp N0      &kp LS(AMPS)
 &kp LS(QMARK)  &kp LS(EXCL)   &kp MINUS      &kp LS(UNDER)  &kp EQUAL     &kp LS(STAR)                                                  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(LPAR)  &kp LS(RPAR)  &kp BSLH    &kp LS(PIPE)
-&tog 1         &kp LS(POUND)  &kp LS(TILDE)  &kp LS(PRCNT)  &kp LS(PLUS)  &kp LS(DLLR)                                                  &kp LS(LT)    &kp LS(GT)    &kp LBKT      &kp RBKT      &kp LS(AT)  &kp LS(CARET)
+&tog 5         &kp LS(POUND)  &kp LS(TILDE)  &kp LS(PRCNT)  &kp LS(PLUS)  &kp LS(DLLR)                                                  &kp LS(LT)    &kp LS(GT)    &kp LBKT      &kp RBKT      &kp LS(AT)  &kp LS(CARET)
                               &trans         &trans         &trans                                                                                    &trans        &trans        &trans
                                                                                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -133,7 +133,7 @@
 &trans  &trans            &trans            &trans            &trans            &trans                                                  &trans         &trans         &trans    &trans        &trans        &trans
 &trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &trans                                                  &kp PAGE_DOWN  &kp LG(MINUS)  &kp UP    &kp LS(PLUS)  &kp N0        &kp BSPC
 &trans  &kp LALT          &kp LCTRL         &kp LSHFT         &kp LGUI          &trans                                                  &kp PAGE_DOWN  &kp LEFT       &kp DOWN  &kp RIGHT     &kp LS(DLLR)  &kp LS(A)
-&trans  &kp LG(Z)         &kp LG(X)         &kp LG(C)         &kp LG(V)         &trans                                                  &trans         &trans         &trans    &trans        &trans        &trans
+&trans  &kp LG(Z)         &kp LG(X)         &kp LG(C)         &kp LG(V)         &trans                                                  &trans         &trans         &trans    &trans        &trans        &tog 6
                           &trans            &trans            &trans                                                                                   &trans         &trans    &trans
                                                                                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
