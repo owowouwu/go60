@@ -1,4 +1,5 @@
 / {
+    
     inputs {
         cirque_split_lh: cirque_split_lh@0 {
             compatible = "zmk,input-split";
@@ -8,6 +9,10 @@
     };
 };
 
+&chosen {
+  /delete-property/ zmk,underglow_indicators;
+}
+/delete-node/ &underglow_indicators;
 /delete-node/ &cirque_split;
 
 // Disabled input listeners for the Cirques, to permit references in the keymap
