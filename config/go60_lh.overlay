@@ -14,14 +14,14 @@
 &cirque_lh_listener {
     compatible = "zmk,input-listener";
     status = "disabled";
+    /delete-property/ device;
 };
 
 
 &cirque_rh_listener {
     compatible = "zmk,input-listener";
     status = "disabled";
+    /delete-property/ device;
 };
 
-/delete-property/ &cirque_rh_listener device;
-/delete-property/ &cirque_lh_listener device;
 
