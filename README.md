@@ -1,4 +1,4 @@
-Go60 with Prospector dongle concept.
+Go60 with dongle concept. Currently using (YADS)[github.com/janpfischer/zmk-dongle-screen].
 
 Steps to flash:
 1. Build firmware with actions.
