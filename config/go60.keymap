@@ -112,7 +112,7 @@
                                                                             &kp LEFT_ALT  &sl 5  &mt LEFT_SHIFT ENTER  &kp SPACE  &lt 6 BACKSPACE  &kp LCTRL
             >;
 
-            label = "OSX_BASE";
+            label = "OSX";
         };
 
         osx_sym {
