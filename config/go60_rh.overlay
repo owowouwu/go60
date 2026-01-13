@@ -1,9 +1,9 @@
 
 / {
     inputs {
-        cirque_split: cirque_split@1 {
+        cirque_split_rh: cirque_split_rh@0 {
             compatible = "zmk,input-split";
-            reg = <0>;
+            reg = <1>;
             device = <&glidepoint>;
         };
     };
