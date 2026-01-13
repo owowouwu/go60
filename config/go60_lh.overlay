@@ -7,11 +7,12 @@
             device = <&glidepoint>;
         };
     };
+
+    chosen {
+      /delete-property/ zmk,underglow_indicators;
+    }
 };
 
-&chosen {
-  /delete-property/ zmk,underglow_indicators;
-}
 /delete-node/ &underglow_indicators;
 /delete-node/ &cirque_split;
 
