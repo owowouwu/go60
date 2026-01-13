@@ -8,6 +8,8 @@
     };
 };
 
+/delete-node/ @cirque_split;
+
 // Disabled input listeners for the Cirques, to permit references in the keymap
 &cirque_lh_listener {
     compatible = "zmk,input-listener";

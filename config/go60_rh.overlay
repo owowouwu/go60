@@ -1,13 +1,15 @@
 
 / {
     inputs {
-        cirque_split_rh: cirque_split_rh@0 {
+        cirque_split: cirque_split@1 {
             compatible = "zmk,input-split";
             reg = <0>;
             device = <&glidepoint>;
         };
     };
 };
+
+/delete-node/ @cirque_split;
 
 // Disabled input listeners for the Cirques, to permit references in the keymap
 &cirque_lh_listener {

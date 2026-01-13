@@ -1,4 +1,3 @@
-#include <go60_dongle.dtsi>
 
 &cirque_lh_listener {
     compatible = "zmk,input-listener";
