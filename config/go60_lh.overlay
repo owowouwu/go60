@@ -16,6 +16,8 @@
     status = "disabled";
 };
 
+/delete-property/ &cirque_rh_listener device;
+
 &cirque_rh_listener {
     compatible = "zmk,input-listener";
     status = "disabled";
