@@ -38,6 +38,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        toggle_sys {
+            bindings = <&mo 3>;
+            key-positions = <55 58>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -48,7 +57,7 @@
 &mt LCTRL ESCAPE           &kp A   &kp S      &kp D      &kp F     &kp G                                                                                    &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
 &oneshot_caps_or_capsword  &kp Z   &kp X      &kp C      &kp V     &kp B                                                                                    &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &none
                                    &mkp LCLK  &mkp RCLK  &kp LGUI                                                                                                   &kp LGUI  &kp LBKT   &kp RBKT
-                                                                           &kp LEFT_ALT  &sl 1  &mt LEFT_SHIFT ENTER  &kp LALT  &kp SPACE  &lt 3 BACKSPACE
+                                                                           &kp LEFT_ALT  &sl 1  &mt LEFT_SHIFT ENTER  &kp LALT  &kp SPACE  &lt 2 BACKSPACE
             >;
 
             label = "BASE";
