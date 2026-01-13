@@ -93,7 +93,7 @@
             bindings = <
 &trans  &trans  &trans  &trans             &trans            &trans                                                      &trans  &trans                &trans                &trans  &trans           &trans
 &trans  &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp C_MUTE                                                  &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &kp PRINTSCREEN  &tog 4
-&trans  &trans  &trans  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT                                                  &trans  &trans                &trans                &trans  &trans           &trans
+&trans  &trans  &trans  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT                                                  &trans  &trans                &trans                &trans  &trans           &tog 0
 &trans  &trans  &trans  &trans             &trans            &trans                                                      &trans  &trans                &trans                &trans  &trans           &trans
                 &trans  &trans             &trans                                                                                &trans                &trans                &trans
                                                                          &trans  &trans  &trans  &trans  &trans  &trans
@@ -109,7 +109,7 @@
 &mt LGUI ESCAPE            &kp A   &kp S      &kp D      &kp F      &kp G                                                                                     &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
 &oneshot_caps_or_capsword  &kp Z   &kp X      &kp C      &kp V      &kp B                                                                                     &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &tog 6
                                    &mkp LCLK  &mkp RCLK  &kp LCTRL                                                                                                    &kp LALT  &kp LBKT   &kp RBKT
-                                                                            &kp LEFT_ALT  &sl 1  &mt LEFT_SHIFT ENTER  &kp SPACE  &lt 2 BACKSPACE  &kp LCTRL
+                                                                            &kp LEFT_ALT  &sl 5  &mt LEFT_SHIFT ENTER  &kp SPACE  &lt 6 BACKSPACE  &kp LCTRL
             >;
 
             label = "OSX_BASE";
